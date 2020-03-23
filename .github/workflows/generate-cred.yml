@@ -7,7 +7,7 @@ on:
       - master
   # As well as every hour.
   schedule:
-    Every Sunday at 29:59
+    # Every Sunday at 29:59
     - cron: 59 23 * * 0
     # Every 5 min
     # - cron: 0-59/5 * * * *
