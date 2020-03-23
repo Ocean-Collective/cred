@@ -7,14 +7,14 @@ on:
       - master
   # As well as every hour.
   schedule:
-    # Every Sunday at 29:59
-    # - cron: 59 23 * * 0
+    Every Sunday at 29:59
+    - cron: 59 23 * * 0
     # Every 5 min
     # - cron: 0-59/5 * * * *
     # Every 30 min
     # - cron: 30 * * * *
     # Every hour
-    - cron: 0 */1 * * *
+    # - cron: 0 */1 * * *
 
 jobs:
   GenerateCred:
