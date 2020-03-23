@@ -25,6 +25,10 @@
             "name":"cred",
             "owner":"Ocean-Collective"
          }
+         {
+            "name":"thesource",
+            "owner":"Ocean-Collective"
+         }
       ]
    }
 ]
