@@ -19,9 +19,9 @@ yarn install
 ## Configuration
 
 * Sources
-  - [Discourse](https://port.oceanprotocol.com)
-  - [Collective Github](https://github.com/Ocean-Collective)
-* Weights [Spec](weights.json) (WIP)
+  - Ocean Protocol Official [Discourse](https://port.oceanprotocol.com) forum (AKA Port)
+  - [Ocean Collective Github Org](https://github.com/Ocean-Collective)
+* Weights [Spec](weights.json) (WIP **NOT Active** using defaults)
   - Edges
     - 
   - Nodes
@@ -40,7 +40,7 @@ serve ./docs # Frontend will be available at http://localhost:5000
 
 ## Generate-Cred Github Action
 
-The Github[action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updatinh the Public [UI Graph](https://ocean-collective.github.io/cred/timeline/@ocean-collective/) every week (Sun at 23:59)
+The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updatinh the Public [UI Graph](https://ocean-collective.github.io/cred/timeline/@ocean-collective/) every week (Sun at 23:59)
 
 ## License
 
