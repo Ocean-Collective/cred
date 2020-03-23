@@ -24,9 +24,9 @@ jobs:
         with:
           # cred-action uses *workspace*/sourcecred_data as it's SOURCECRED_DIRECTORY. Only store the cache from that.
           path: sourcecred_data/cache
-          key: SC_CACHE-${{ hashFiles('**/project.json') }}-${{ github.run_id }}
+          key: SC_CACHE-${{ hashFiles('**/collective.json') }}-${{ github.run_id }}
           restore-keys: |
-            SC_CACHE-${{ hashFiles('**/project.json') }}-
+            SC_CACHE-${{ hashFiles('**/collective.json') }}-
             SC_CACHE-
       - name: Run SourceCred
         # uses: vsoch/cred-action@wip-discord-cache
@@ -40,4 +40,4 @@ jobs:
           project-file: projects/collective.json
           # branch-against: master
           automated: true
-          test-run: true
+          # test-run: true
