@@ -42,7 +42,7 @@ serve ./docs # Frontend will be available at http://localhost:5000
 
 ## Generate-Cred Github Action
 
-The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updatinh the Public [UI Graph](https://ocean-collective.github.io/cred/timeline/@ocean-collective/) every week (Sun at 23:59)
+The Github [action](.github/workflows/generate-cred.yml) is in charge of both re-computing the Community Cred scores and updating the Public [UI Graph](https://ocean-collective.github.io/cred/timeline/@ocean-collective/) every week (Sun at 23:59)
 
 ## License
 
