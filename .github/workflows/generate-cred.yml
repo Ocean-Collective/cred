@@ -19,15 +19,15 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v1
-      - name: SourceCred Cache
-        uses: actions/cache@v1
-        with:
-          # cred-action uses *workspace*/sourcecred_data as it's SOURCECRED_DIRECTORY. Only store the cache from that.
-          path: sourcecred_data/cache
-          key: SC_CACHE-${{ hashFiles('**/collective.json') }}-${{ github.run_id }}
-          restore-keys: |
-            SC_CACHE-${{ hashFiles('**/collective.json') }}-
-            SC_CACHE-
+      # - name: SourceCred Cache
+      #   uses: actions/cache@v1
+      #   with:
+      #     # cred-action uses *workspace*/sourcecred_data as it's SOURCECRED_DIRECTORY. Only store the cache from that.
+      #     path: sourcecred_data/cache
+      #     key: SC_CACHE-${{ hashFiles('**/collective.json') }}-${{ github.run_id }}
+      #     restore-keys: |
+      #       SC_CACHE-${{ hashFiles('**/collective.json') }}-
+      #       SC_CACHE-
       - name: Run SourceCred
         # uses: vsoch/cred-action@wip-discord-cache
         uses: vsoch/cred-action@master
