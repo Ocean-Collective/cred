@@ -35,6 +35,7 @@ Cred Scores can be updated locally by running the following commands:
 export SOURCECRED_GITHUB_TOKEN=YOUR_GITHUB_TOKEN
 export sc=PATH_TO_YOUR_SOURCECRED_LOCAL_REPO
 ./update.sh
+serve ./docs # Frontend will be available at http://localhost:5000
 ```
 
 ## Generate-Cred Github Action
