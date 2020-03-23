@@ -18,6 +18,8 @@ yarn install
 
 ## Configuration
 
+*See [Spec](projects/collective.json)*
+
 * Sources
   - Ocean Protocol Official [Discourse](https://port.oceanprotocol.com) forum (AKA Port)
   - [Ocean Collective Github Org](https://github.com/Ocean-Collective)
