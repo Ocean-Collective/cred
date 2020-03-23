@@ -4,7 +4,7 @@ Tooling to compute Cred scores for the Ocean Collective using the [Sourcecred](h
 
 ## Requirements
 
-* Node 10.x.x - 12.x.x
+* Node (10.x.x - 12.x.x)
 * Yarn
 * Serve (npm -i -g serve) (To deploy the Frontend graph locally)
 
@@ -34,7 +34,7 @@ yarn install
 Cred Scores can be updated locally by running the following commands:
 
 ```Bash
-export SOURCECRED_GITHUB_TOKEN=YOUR_GITHUB_TOKEN
+export SOURCECRED_GITHUB_TOKEN=YOUR_GITHUB_TOKEN # You can generate a personal API Token here -> https://github.com/settings/tokens
 export sc=PATH_TO_YOUR_SOURCECRED_LOCAL_REPO
 ./update.sh
 serve ./docs # Frontend will be available at http://localhost:5000
