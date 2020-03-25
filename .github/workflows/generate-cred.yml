@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
         with:
-          # weights: weights.json
+          weights: weights.json
           project: "@ocean-collective"
           project-file: projects/collective.json
           # branch-against: master
