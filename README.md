@@ -2,6 +2,8 @@
 
 Tooling to compute Cred scores for the Ocean Collective using the [Sourcecred](https://sourcecred.io/) social algorithm.
 
+![generate-cred](https://github.com/Ocean-Collective/cred/workflows/generate-cred/badge.svg)
+
 ## Requirements
 
 * Node (10.x.x - 12.x.x)
